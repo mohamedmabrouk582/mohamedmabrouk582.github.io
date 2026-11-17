@@ -110,7 +110,10 @@ h1 {
   font-size: 0.92rem;
 }
 
-.reach a { overflow-wrap: anywhere; }
+.reach a {
+  color: var(--ink);
+  text-underline-offset: 0.22em;
+}
 
 .rail nav {
   display: flex;
